@@ -358,17 +358,19 @@
         transform="translate(-147.025 -140.939)" fill="#f5f5f5" />
     </svg>
 
-    <div>
-      <label for="fname">Name:</label><br>
-      <input [(ngModel)]="name" (keyup)="keyup()">
-      <h3>{{result}}</h3>
-    </div>
+
 
   </div>
 
   <!-- Resources -->
   <h2>Resources</h2>
   <p>Here are some links to help you get started:</p>
+
+  <div>
+    <label for="fname">Name:</label><br>
+    <input [(ngModel)]="name" (keyup)="keyup()">
+    <h3>{{result}}</h3>
+  </div>
 
   <div class="card-container">
     <a class="card" target="_blank" rel="noopener" href="https://angular.io/tutorial">
